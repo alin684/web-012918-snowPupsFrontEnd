@@ -7,6 +7,7 @@ class SledSearch extends React.Component {
 
   render() {
     return(
+      <h3>Search The Sleds</h3>
       <input type="text" onChange={this.props.handleChange} value={this.props.query}/>
     )
   }
